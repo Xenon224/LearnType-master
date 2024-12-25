@@ -54,7 +54,7 @@ void start_typ()
         break;
     }
 
-    getchar();// to read the /n character after the integer input when we press enter key
+    getchar();// to read the /n character after the integer input when we press enter key , the character is removed from the input stream and discarded 
 
     printf("type the following text:%s \n",textToBeTyped);
 
